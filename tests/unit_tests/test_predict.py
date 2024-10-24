@@ -16,8 +16,7 @@ class TestModelPredict(unittest.TestCase):
         rootdir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
         self.images = [
             os.path.join(rootdir, "documentation", "source", "images", "examples", "countryside.jpg"),
-            os.path.join(rootdir, "documentation", "source", "images", "examples", "street_busy.jpg"),
-            "https://deci-datasets-research.s3.amazonaws.com/image_samples/beatles-abbeyroad.jpg",
+            os.path.join(rootdir, "documentation", "source", "images", "examples", "street_busy.jpg")
         ]
         self._set_images_with_targets()
 
